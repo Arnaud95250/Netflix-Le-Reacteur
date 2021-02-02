@@ -5,7 +5,59 @@
 }
 
 .App {
-  background-color: rgb(158, 99, 99);
-  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  height: 100%;
   color: white;
+}
+
+.container_header {
+  height: 100px;
+}
+
+.container_main {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.container_main h1 {
+  margin-top: 100px;
+}
+
+.container_header {
+  display: flex;
+  line-height: 150px;
+}
+
+.container_header img {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 150px;
+}
+
+.button input {
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 20px;
+  background: rgb(0, 0, 0);
+  margin-left: 20px;
+  width: 250px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.button input:hover {
+  background: rgb(83, 83, 83);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.row_img {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
+  margin-top: 30px;
 }
